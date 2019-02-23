@@ -6,7 +6,8 @@
 package morse.ansic;
 
 import java.util.Scanner;
-import static morse.ansic.AetodoAlfanumMorse.Alfamorse;
+import static morse.ansic.Metodos.Alfamorse;
+import static morse.ansic.Metodos.MorsAlfa;
 
 /**
  *
@@ -20,10 +21,10 @@ public class MorseANSIC {
     public static void main(String[] args) {
         // TODO code application logic here
 
-        String morse = " ", msg1;
-        int res;
+        String texto, morse = " ",msg1;
+
         Scanner teclado = new Scanner(System.in);
-        String a, Traducido1;
+        String a,Traducido1;
         boolean b = true;
 
         while (b) {
@@ -34,26 +35,28 @@ public class MorseANSIC {
             switch (a) {
                 case "1":
                     System.out.println("Ingrese el mensaje en Texto");
-                    res = teclado.nextInt();
-                    AraRom(c)
-                 
+                    texto = teclado.nextLine();
+                   Traducido1=Alfamorse(texto,morse);
+                   
+                    System.out.println(texto+" En morse es:'"+Traducido1+"'");
                     
-
                     break;
                 case "2":
                     System.out.println("Ingrese el mensaje en Morse");
                     msg1 = teclado.nextLine();
+                    
+                      MorsAlfa(msg1);
+
 
                     break;
                 case "3":
                     b = false;
-
+                    
+                    
             }
             System.out.println("   ");
-
+           
+            
         }
-
     }
-
-   
 }
