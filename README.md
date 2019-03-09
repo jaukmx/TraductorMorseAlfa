@@ -11,6 +11,6 @@ tener instalado los siguientes programas
 -java JRE
 -Apache Netbeans
 
-Abrir el Netbeans y el el menu <<file>>, elegir <<Open project>>
+Abrir el Netbeans y el el menu "file", elegir "Open project"
 
-Una vez abierto el proyecto se tiene que ejecutar con el boton <<Run project>>
+Una vez abierto el proyecto se tiene que ejecutar con el boton "Run project"
