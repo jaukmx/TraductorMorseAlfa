@@ -7,9 +7,9 @@ Ejecución del proyecto
 
 Prerrequisitos:
 tener instalado los siguientes programas
--->java JDK
--->java JRE
--->Apache Netbeans
+-java JDK
+-java JRE
+-Apache Netbeans
 
 Abrir el Netbeans y el el menu <<file>>, elegir <<Open project>>
 
